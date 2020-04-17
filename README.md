@@ -12,3 +12,15 @@ minutes for 4 hours. In each experiment, due to prior testing, the subjects are 
 non-diabetic according to the traditional fasting and glucose tolerance tests. By analyzing the
 relationships between glucose, insulin, and glucagon in these controlled settings, we hope to identify
 deeper patterns of interaction that might be early signs of diabetes.
+
+### Two Approaches to the Meal Experiment
+We improved our classification in the meal data using two methods. First, we devised additional
+features and applied additional algorithms. Second, we combined the groups in a way that simplifies the
+problem while capturing the essential part of the question.
+
+### Subspace Discriminant in Nighttime Experiment
+As noted above, the challenge in the nighttime fasting data is to use features that do not reflect
+the very wide difference between the means and standard deviations of glucose between diabetics and
+nondiabetics, and to instead capture some of the self-regulating relationships. To summarize the
+variations of secretions across the three substances, we started by taking the difference between
+successive timepoints.
